@@ -48,7 +48,7 @@ sub _check_country {
 
 	_check_key($self, $key) && return;
 
-	if (none { $_ eq $self->{$key} } all_country_codes($codeset)) {
+	if (none { $_ eq lc($self->{$key}) } all_country_codes($codeset)) {
 		my $err = sprintf($error, $key);
 		err $err,
 			'Codeset', $codeset,
