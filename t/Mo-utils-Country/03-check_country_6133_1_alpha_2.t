@@ -7,8 +7,8 @@ use Mo::utils::Country qw(check_country_3166_1_alpha_2);
 use Test::More 'tests' => 5;
 use Test::NoWarnings;
 
-my # Test.
-$self = {
+# Test.
+my $self = {
 	'key' => 'cz',
 };
 my $ret = check_country_3166_1_alpha_2($self, 'key');
