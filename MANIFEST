@@ -1,5 +1,9 @@
 Changes
 Country.pm
+examples/check_country_3166_1_alpha_2_fail.pl
+examples/check_country_3166_1_alpha_2_ok.pl
+examples/check_country_3166_1_alpha_3_fail.pl
+examples/check_country_3166_1_alpha_3_ok.pl
 inc/Module/Install.pm
 inc/Module/Install/AuthorRequires.pm
 inc/Module/Install/AuthorTests.pm
