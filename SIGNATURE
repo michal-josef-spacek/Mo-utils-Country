@@ -1,0 +1,58 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.87.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: RIPEMD160
+
+SHA256 5b43ac5816aa2059aa65ec39ab01837a6722fee0762d6ec1c702f620e63ed531 Changes
+SHA256 480a5f95e8ea9277497d4d91fdb55d02c8f176a9d33ce6fc2b50587b842967ec Country.pm
+SHA256 e9721661dbfb60dadebf3cd197cbc00239895aa73fb3431e19490cfad301cf99 LICENSE
+SHA256 1364182bc1f3eb6b552d9fb925939ed39b9234514eb98e7944e51ecb1dfa6911 MANIFEST
+SHA256 ff2454c771294e02c5e82901fb2ce9809d16587dc1ea13b24f9bd59da767d262 META.yml
+SHA256 8633ab40b3bba03140595b3131ba3a7379c19592105ec187ed054bb5f4efff64 Makefile.PL
+SHA256 3fbf54d5a0f007d03f92bfac8418ef685f5b46bb7690de2171c9e7e6a83af7a7 README
+SHA256 fd1d8bbff8bba0507f7e2bbdf4b7cbff5d2468083f8815a8acb38624c6216230 examples/check_country_3166_1_alpha_2_fail.pl
+SHA256 fc87bfed39cb6153c03765c9b873b194e119dcc8f67df29ddb65b7206eee43ce examples/check_country_3166_1_alpha_2_ok.pl
+SHA256 6b889c929a2d8491c20dc7a7624226f94ff80efaf1f25a3ab59f72495f56f586 examples/check_country_3166_1_alpha_3_fail.pl
+SHA256 de396cf8dd07df0aac9d178ba44f9ae9c411069b1bf44abbbbc3f5aed88b4213 examples/check_country_3166_1_alpha_3_ok.pl
+SHA256 cd5397bbe618f5bbd4e12a33b0cf5d21114e771c2dbd0ce28e2135beb52c35a8 inc/Module/Install.pm
+SHA256 8bd506c33fb78f10f6451413e931ca23541fcc4eebe05fcb7c7c9577341223c4 inc/Module/Install/AuthorRequires.pm
+SHA256 1b5430a46a35142ef8914d8c745196fca825defc9dfa7e389299bf294613825e inc/Module/Install/AuthorTests.pm
+SHA256 798836f9ccb8d204b1be31fc3835631f57e9d818b21a8f0d14bfcfb82ff4a72a inc/Module/Install/Base.pm
+SHA256 d64cd4c16f83c5baf11f64a44bea3a0abc060a49da5aba040f0eb01394bf75ab inc/Module/Install/Can.pm
+SHA256 65d7a6098bf3f829e8c1c2865476d3537aa6f0ad0ffc9149e10812c856529043 inc/Module/Install/Fetch.pm
+SHA256 70c4b77acab3ff51dfb318110369607cb109e1c319459249623b787cf3859750 inc/Module/Install/Makefile.pm
+SHA256 14556386168007ce913e669fc08a332ccdb6140246fd55a90c879b5190c1b57a inc/Module/Install/Metadata.pm
+SHA256 53825bc78e4c910b888160bc148c8bc211be58e02b99c8edcbf4854f95faa049 inc/Module/Install/ReadmeFromPod.pm
+SHA256 4c746c02c5cc19bed4c352e76205b4adff4c45ce8310d71294e1b83c059659c2 inc/Module/Install/Win32.pm
+SHA256 d3d9b4583243c470ae895defa4c44564485b53693cba1c50ab0320768f443e97 inc/Module/Install/WriteAll.pm
+SHA256 a70588bdcee6d93d459fccc914997df4ee94b611492ea95c41a6478ac227050d t/Mo-utils-Country/01-use.t
+SHA256 2a920c3dcd2cdc54ebdbca420528f2dc1734d2562efe0f219a4592dc2fa61d63 t/Mo-utils-Country/02-version.t
+SHA256 f9c792a48ef91fbdf288fcb87a21442264eb4e4b4d19f20b1e8ec357ab60d99e t/Mo-utils-Country/03-check_country_6133_1_alpha_2.t
+SHA256 1d83bba36b644cc02d0fe519e450c34b7047bdd5285fa54666345afc8a1431fd t/Mo-utils-Country/04-check_country_6133_1_alpha_3.t
+SHA256 881735284624f7aaac76d0259da7a28d3b5c02f63352edc27c17d8e08fcb2f10 xt/Mo-utils-Country/01-pod_coverage.t
+SHA256 7cd2c45f37cd9231b83f4b1d2ce8b5639895769f3f1571ce01731122cf9f57f4 xt/Mo-utils-Country/02-pod.t
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBAwAdFiEEbhzVZugfHqSVNvE7YSp92FNcjtAFAmYX6EAACgkQYSp92FNc
+jtA9ZgwAkny90mlS0vKf8/gEMju8kF9X2zsaTqblvwsn30ijv3MwUyGGPAPGo3+M
+ZmA8D0VZLdsghBdQyT0lAKNknQtYN/6X9K6kYWs073HYIvH9tSHRTJdMNwf6bF3b
+rqavBlrOXEtQY0bIV7Dfj0jQFhm88XtXZa53l9MCvBpaXzi/KsaSs9vyghGUAOJM
+KZYCaYPDFHcIBB3GBYREHSdGKb3ZDEloqL4vnHsQOB0AYB5/IdTK9x9zI8rfnE8d
+mCF3oh6mBIrZ53LobF+7VB6kA5Ea4nVFQVjaRy4fXtOFZaqK/6S/YDpIuKBuzKa5
+jf1j6uKkFuZap+ljtde8YAu7+k+HpbSu+ZacjxKJQuq4pcwIGcMW1Mk903afhl13
+xkZFTloUp980sWfQSi+jXR/jWytaGcQd1eWvt+vxSXnlk3xaK/n6TiSJNSW8sKvz
+Y7sjNiw39Ru8+SA7hmO1rvn7XGP9O9myRFvGVr0avA0Bm9KUdjGxTrkYlH7qIq1K
+erq7hTNU
+=EM8i
+-----END PGP SIGNATURE-----
